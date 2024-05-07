@@ -1085,7 +1085,7 @@ bool init(int argc, char *argv[]) {
 
 void kill() {
     printf("Quitting game...\n");
-    printf("End of log.");
+    printf("End of log.\n");
     fclose(stdout);
     Mix_CloseAudio();
     SDL_GameControllerClose(controller);
